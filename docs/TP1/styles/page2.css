@@ -1,3 +1,7 @@
+#back {
+    background-color: black;
+}
+
 .head {
     background-color: rgb(52, 52, 143);
     border-radius: 20px;
@@ -55,10 +59,10 @@ text-align: center;
 .colonne1 {
     float:left;
     width: 35%;
-    background-color: #b9c5cf2a ;
+    background-color: rgb(107, 104, 105);
     border-radius: 20px;
     padding: 1px ;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     box-sizing: border-box;
     height: 100%;
     
@@ -77,10 +81,17 @@ text-align: center;
 .colonne2{
     float: right;
     width: 65%;
-    background-color: #ffffff2a ;
+    background-color: #b2afaf ;
     border-radius: 20px;
     padding: 1px ;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     box-sizing: border-box;
     height:100%
+}
+
+#coul {
+    position: absolute;
+    color: white;
+    margin-left: 55px;
+    margin-top: 20px;
 }
